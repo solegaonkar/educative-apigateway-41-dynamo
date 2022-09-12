@@ -47,9 +47,11 @@ echo $url
 curl --location --request PUT $url --header 'Content-Type: application/json' --data-raw '{}'
 
 # 2. Increment the counter 
-
 curl --location --request GET $url --header 'Content-Type: application/json' 
 
-# 2. Increment the counter again
-
+# 3. Increment the counter again
 curl --location --request GET $url --header 'Content-Type: application/json' 
+
+# 4. Increment the counter yet again
+curl --location --request GET $url --header 'Content-Type: application/json' 
+
